@@ -1,0 +1,138 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+@font-face{font-family: 'FonteLogo';
+    src: url ("../_fonts/bubblegum-sans-regular.otf"); }
+   
+
+body{
+    text-align: justify;
+    text-indent: 50px;
+    background-color: rgb(94, 120, 158);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 34pt;
+    color: rgb(94, 120, 158);
+    
+}
+
+h2{
+    font-size: 26pt;
+    color: rgb(113, 111, 133);
+}
+
+p{
+    color: rgb(78, 74, 74);
+    font-size: 14pt;
+
+}
+
+div#interface {
+   
+    width: 1600px;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+
+header#cabecalho {
+    background-color:rgb(214, 193, 171);
+    display: block;
+    float: top;
+    width: 1556px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(10, 12, 8);
+}
+
+section#corpo{
+    background-color: rgb(243, 187, 124);
+    display: block;
+    width: 770px;
+    float: left;
+    border: 1px solid rgb(10, 12, 8);
+    box-shadow: -1px 10px 50px  rgba(10, 9, 9,0.8);
+    padding: 10px;
+    margin-top: 10px;
+    
+
+}   
+
+section#corpo img{
+    width: 500px;
+    padding: 1px;
+    box-shadow: -1px 15px 50px 6px rgba(10, 9, 9,0.8);
+    margin: 15px;
+}
+
+section#corpo p{
+    padding: 20px;
+}
+
+aside#lateral{
+    background-color: rgb(243, 187, 124);
+    display: block;
+    width: 790px;
+    float: right;
+    border: 1px solid black;
+    box-shadow: -1px 15px 50px rgba(10, 9, 9,0.8);
+    margin-top: 10px;
+}
+
+aside#lateral img#icone{
+    width: 140px;
+    position: absolute;
+    left: 1470px;
+    top: 560px;
+}
+
+aside#lateral p{
+    padding: 30px;
+    margin-top: -4px;
+}
+
+aside#lateral h2{
+    margin-top: 35px;
+}
+
+aside#lateral h3{
+    font-size: 18pt;
+    margin-bottom: 100px;
+    margin-top: -20px;
+
+}
+
+aside#lateral nav#lista{
+    display: block;
+}
+
+aside#lateral nav#lista ul{
+        list-style: none;
+        text-transform: uppercase;
+        position: absolute;
+        top: 630px;
+        left: 780px;
+}
+
+aside#lateral nav#lista li{
+    display: inline-block;
+    background-color: rgb(94, 120, 158);
+    font-size: 12pt;
+    padding: 5px;
+    margin: 3px;
+
+}
+
+footer#rodape{
+    background-color: rgb(243, 187, 124);
+    display: block;
+    width: 770px;
+    float: right;
+    border: 1px solid black;
+    box-shadow: -1px 15px 50px rgba(10, 9, 9,0.8);
+    padding: 10px;
+    margin-top: 10px;
+}
